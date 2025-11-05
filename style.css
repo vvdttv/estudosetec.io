@@ -185,6 +185,22 @@ hr {
     opacity: 0.9;
 }
 
+/* --- Container da Justificativa (NOVO) --- */
+#explanation-container {
+    text-align: left;
+    padding: 1rem;
+    background-color: #f8f9fa; /* Um cinza bem claro */
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    line-height: 1.6;
+}
+#explanation-container p {
+    margin-bottom: 0; /* Remover margem do parágrafo padrão */
+    color: var(--text-color);
+}
+/* -------------------------------------- */
+
 /* Botão Principal */
 #next-btn, #restart-btn, #home-btn {
     background-color: var(--secondary-color);
